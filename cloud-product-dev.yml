@@ -21,4 +21,4 @@ server:
 debug:
   true
 env:
-  dev
+  dev1
