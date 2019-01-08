@@ -1,0 +1,11 @@
+server:
+  port: 8084
+zuul:
+  routes:
+    product:
+      path: /myProduct/**
+      serviceId: cloud-product
+      sensitiveHeaders:
+management:
+  security:
+    enabled: false
