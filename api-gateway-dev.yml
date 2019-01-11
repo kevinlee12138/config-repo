@@ -5,7 +5,7 @@ zuul:
     product:
       path: /myProduct/**
       serviceId: cloud-product
-      sensitiveHeaders:
+  sensitive-headers:
 management:
   security:
     enabled: false
